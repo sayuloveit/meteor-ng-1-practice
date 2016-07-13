@@ -8,6 +8,6 @@ const name = 'navigation';
 export default angular.module(name, [
     angularMeteor
 ]).component(name, {
-    templateUrl: 'imports/ui/components/navigation/navigation.html',
+    templateUrl: 'imports/ui/components/layout/navigation.html',
     controllerAs: name
 })
